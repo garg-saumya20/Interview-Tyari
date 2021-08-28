@@ -1,0 +1,279 @@
+.App {
+  text-align: center;
+  background: #0d6efd;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.clr {
+  color: red;
+}
+.clr:hover {
+  color: white;
+  text-decoration: none;
+}
+.footerwrap {
+  position: relative;
+  /* top:460px; */
+  width: 100%;
+  z-index: 501;
+  clear: both;
+}
+.foottxt {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background: #333;
+  font-family: "Roboto", sans-serif;
+  padding: 15px 3.5;
+  font-size: 0.8em; /* typo vw */
+  color: #ffffff;
+  font-weight: 200;
+  margin: 0;
+  color: red;
+  box-sizing: border-box;
+}
+nav .navbar-nav li a {
+  color: white !important;
+}
+nav .navbar-nav li a:hover {
+  color: red !important;
+}
+.clrt {
+  color: pink;
+}
+.clrt:hover {
+  color: white;
+  text-decoration: none;
+}
+.profile {
+  background-color: #333;
+  height: 100%;
+  color: rgb(241, 231, 231);
+}
+.avatar {
+  vertical-align: middle;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+.user-info {
+  text-align: left;
+  margin: auto;
+  padding: 4rem;
+}
+.log-con {
+  background-color: #0d6efd;
+  height: 110vh;
+  margin: auto;
+}
+.reg-con {
+  background-color: #0d6efd;
+  height: 100vh;
+  margin: auto;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+}
+.login-container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.login-form > h5 {
+  margin-bottom: 5px;
+}
+.login-form > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  width: 98%;
+  background-color: white;
+}
+.login-container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login_signin-btn {
+  background-color: #007bff;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+}
+.login_register-btn {
+  background-color: #007bff;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgrey;
+  cursor: pointer;
+  color: white;
+}
+.inp {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+.inp {
+  margin: 0.3rem;
+  padding: 1rem;
+}
+.heart {
+  color: red;
+}
+.insta {
+  color: red;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.linkedin {
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.github {
+  color: black;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mail {
+  color: red;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.select {
+  background-color: #212529;
+  color: white;
+}
+.clrt {
+  text-decoration: none;
+}
+.clr {
+  text-decoration: none;
+}
+
+.desktop {
+  background-color: #0d6efd;
+  height: 100vh;
+  color: white;
+}
+.desktop-btn {
+  color: red;
+  text-decoration: none;
+}
+.btn {
+  color: yellow;
+  border: 2px solid white;
+}
+.about {
+  height: 110vh;
+  background-color: #0d6efd;
+}
+.info {
+  color: black;
+  width: 25rem;
+  margin: 4rem auto;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: white;
+  font-weight: 200px;
+}
+.contact {
+  height: 90vh;
+  background-color: #333333;
+}
+.cfooterwrap {
+  position: relative;
+  /* top:460px; */
+  width: 100%;
+  z-index: 501;
+  clear: both;
+}
+.cfoottxt {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background: #333;
+  font-family: "Roboto", sans-serif;
+  padding: 15px 3.5;
+  font-size: 0.8em; /* typo vw */
+  color: #ffffff;
+  font-weight: 200;
+  margin: 0;
+  color: red;
+  box-sizing: border-box;
+}
+.cinsta {
+  color: red;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.clinkedin {
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.cgithub {
+  color: black;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.cmail {
+  color: red;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
